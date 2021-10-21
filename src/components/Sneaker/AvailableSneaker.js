@@ -34,6 +34,7 @@ const DUMMY_SNEAKERS = [
 const AvailableSneaker = () => {
     const sneakersList = DUMMY_SNEAKERS.map((sneaker) => <SneakerItem
         key={sneaker.id}
+        id={sneaker.id}
         name={sneaker.name}
         description={sneaker.description}
         price={sneaker.price}
