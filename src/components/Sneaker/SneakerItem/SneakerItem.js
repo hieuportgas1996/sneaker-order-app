@@ -4,7 +4,8 @@ import classes from './SneakerItem.module.css';
 import SneakerItemForm from "./SneakerItemForm";
 
 const SneakerItem = props => {
-    const price = `$${props.price.toFixed(2)}`;
+    // const price = `$${props.price.toFixed(2)}`;
+    const price = `$${props.price}`;
 
     const cartCtx = useContext(CartContext);
 
